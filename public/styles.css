@@ -1,0 +1,77 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@font-face {
+  font-family: contm;
+  src: url('https://cdn.glitch.com/c6051932-cc31-4429-a6f8-46c36fc212f8%2Fcontm.ttf?1518268506683');
+}
+.topnav {
+  background-color: #4e4b00;
+  overflow: auto;
+  position: fixed;
+  width: 100%
+}
+.topnav a {
+  float: left;
+  color: #ddd;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #827e00;
+  color: #ffffff;
+}
+.topnav a.active {
+  background-color: #646100;
+  color: white;
+}
+body, html {
+  color: white;
+  height: 100%;
+}
+* {
+  font-size: 100%;
+  font-family: contm;
+}
+.text {
+  font-size: 130%;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8%;
+  background-color: #4e4b00;
+  color: white;
+  text-align: center;
+}
+table  { 
+  border-collapse:collapse;
+  background-color: #5c5900;
+  font-size: 100%;
+  font-family: contm;
+  color: #ffffff;
+}
+td, th { 
+  border: 3px solid #383600;
+  padding: 6px;
+}
+tr:hover {
+  background-color: #474400;
+  border: 3px solid #1e1d00;
+}
+.align {
+  text-align:center;
+}
+.discord{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
