@@ -1,5 +1,5 @@
 const Discord = require('discord.js')
-var prefix = ")"
+var fs = require('fs')
 exports.run = (bot, message, args) => {    
     const clean = text => {
         if (typeof(text) === "string")

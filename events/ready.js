@@ -20,13 +20,7 @@ const Tags = sequelize.define('tags', {
     },
 });
 exports.run = async (bot) => {
-  bot.user.setActivity({
-          status: "online",
-          activity: {
-            name: "type u!help | just approved on DBL :)",
-            type: 0,
-          }
-        })
+  bot.user.setGame("Type u!help for getting help! | Road to stable owo")
   Tags.sync();
   console.log(`Logged in as ${bot.user.tag}!`);
 }

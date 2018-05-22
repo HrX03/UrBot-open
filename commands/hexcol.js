@@ -35,3 +35,5 @@ exports.run = (bot, message, args) => {
     }
   } else return message.channel.send("You can't use non hex values!")
 }
+
+//TotoDelon: HrX, i gived premium to yphar, he winned the giveaway and the code question thing

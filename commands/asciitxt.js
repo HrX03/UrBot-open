@@ -9,4 +9,4 @@ exports.run = (bot, message, args) => {
     return output
   }
   message.channel.send(`Output: "${thisFunction()}"`)
-}
+}  

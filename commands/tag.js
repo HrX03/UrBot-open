@@ -20,7 +20,7 @@ const Tags = sequelize.define('tags', {
     },
 });
 exports.run = async (bot, message, args) => {
-  const tagName = args[0];
+  const tagName = args.join(' ');
   const tag = await Tags.findOne({ where: { name: tagName } });
   if (tag) {
     // equivalent to: UPDATE tags SET usage_count = usage_count + 1 WHERE name = 'tagName';
